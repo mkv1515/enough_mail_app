@@ -206,7 +206,7 @@ abstract class AppLocalizations {
   /// Welcome message shown on first panel
   ///
   /// In en, this message translates to:
-  /// **'Welcome to DSS Mail, your friendly and fast email helper!'**
+  /// **'Welcome to DSS Mail, your friendly and fast email client'**
   String get welcomePanel1Text;
 
   /// Welcome panel title

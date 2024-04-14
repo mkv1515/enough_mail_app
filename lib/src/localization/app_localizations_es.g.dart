@@ -150,7 +150,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String multipleMovedToJunk(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -167,7 +167,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String multipleMovedToInbox(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -184,7 +184,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String multipleMovedToArchive(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -201,7 +201,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String multipleMovedToTrash(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -226,7 +226,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String multipleMoveTitle(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -311,7 +311,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String drawerAccountsSectionTitle(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -503,7 +503,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String messageActionForwardAttachments(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1669,7 +1669,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String composeAppointmentRecurrenceMonthlyOnDayOfMonth(int day) {
     final intl.NumberFormat dayNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String dayString = dayNumberFormat.format(day);
 
@@ -1698,7 +1698,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String durationYears(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1715,7 +1715,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String durationMonths(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1732,7 +1732,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String durationWeeks(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1749,7 +1749,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String durationDays(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1766,7 +1766,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String durationHours(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1783,7 +1783,7 @@ class AppLocalizationsEs extends AppLocalizations {
   String durationMinutes(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-
+      
     );
     final String numberString = numberNumberFormat.format(number);
 
