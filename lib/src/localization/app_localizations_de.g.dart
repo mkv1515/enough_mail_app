@@ -7,7 +7,7 @@ class AppLocalizationsDe extends AppLocalizations {
   AppLocalizationsDe([String locale = 'de']) : super(locale);
 
   @override
-  String get signature => 'Mit Maily gesendet';
+  String get signature => 'Mit DSS Mail gesendet';
 
   @override
   String get actionCancel => 'Abbrechen';
@@ -49,19 +49,19 @@ class AppLocalizationsDe extends AppLocalizations {
   String get actionAddressSearch => 'Suchen';
 
   @override
-  String get splashLoading1 => 'Maily startet...';
+  String get splashLoading1 => 'DSS Mail startet...';
 
   @override
-  String get splashLoading2 => 'Maily fängt an zu arbeiten...';
+  String get splashLoading2 => 'DSS Mail fängt an zu arbeiten...';
 
   @override
-  String get splashLoading3 => 'Maily startet in 10, 9, 8...';
+  String get splashLoading3 => 'DSS Mail startet in 10, 9, 8...';
 
   @override
-  String get welcomePanel1Title => 'Maily';
+  String get welcomePanel1Title => 'DSS Mail';
 
   @override
-  String get welcomePanel1Text => 'Willkommen zu Maily, deinem freundlichen und schnellen E-Mail Helferlein!';
+  String get welcomePanel1Text => 'Willkommen zu DSS Mail, deinem freundlichen und schnellen E-Mail Helferlein!';
 
   @override
   String get welcomePanel2Title => 'Konten';
@@ -150,7 +150,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String multipleMovedToJunk(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -167,7 +167,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String multipleMovedToInbox(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -184,7 +184,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String multipleMovedToArchive(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -201,7 +201,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String multipleMovedToTrash(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -226,7 +226,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String multipleMoveTitle(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -302,7 +302,7 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get drawerEntryAbout => 'Über Maily';
+  String get drawerEntryAbout => 'Über DSS Mail';
 
   @override
   String get drawerEntrySettings => 'Einstellungen';
@@ -311,7 +311,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String drawerAccountsSectionTitle(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -503,7 +503,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String messageActionForwardAttachments(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -598,7 +598,7 @@ class AppLocalizationsDe extends AppLocalizations {
   }
 
   @override
-  String get legaleseUsage => 'Durch die Nutzung von Maily stimmst du unserer [PP] und unseren [TC] zu.';
+  String get legaleseUsage => 'Durch die Nutzung von DSS Mail stimmst du unserer [PP] und unseren [TC] zu.';
 
   @override
   String get legalesePrivacyPolicy => 'Datenschutzerlärung';
@@ -607,7 +607,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get legaleseTermsAndConditions => 'Bedingungen';
 
   @override
-  String get aboutApplicationLegalese => 'Maily ist freie Software, die unter der GPL GNU General Public License veröffentlicht ist.';
+  String get aboutApplicationLegalese => 'DSS Mail ist freie Software, die unter der GPL GNU General Public License veröffentlicht ist.';
 
   @override
   String get feedbackActionSuggestFeature => 'Feature vorschlagen';
@@ -616,13 +616,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get feedbackActionReportProblem => 'Problem berichten';
 
   @override
-  String get feedbackActionHelpDeveloping => 'Hilf Maily zu entwickeln';
+  String get feedbackActionHelpDeveloping => 'Hilf DSS Mail zu entwickeln';
 
   @override
   String get feedbackTitle => 'Feedback';
 
   @override
-  String get feedbackIntro => 'Danke, dass du Maily testest!';
+  String get feedbackIntro => 'Danke, dass du DSS Mail testest!';
 
   @override
   String get feedbackProvideInfoRequest => 'Bitte teile folgende Information mit, wenn du ein Problem berichtest:';
@@ -655,13 +655,13 @@ class AppLocalizationsDe extends AppLocalizations {
   String get settingsSecurityMessageRenderingPlainText => 'Nur den Text der Nachricht anzeigen';
 
   @override
-  String get settingsSecurityLaunchModeLabel => 'Wie soll Maily Links öffnen?';
+  String get settingsSecurityLaunchModeLabel => 'Wie soll DSS Mail Links öffnen?';
 
   @override
   String get settingsSecurityLaunchModeExternal => 'Öffne Links extern';
 
   @override
-  String get settingsSecurityLaunchModeInApp => 'Öffne Links in Maily';
+  String get settingsSecurityLaunchModeInApp => 'Öffne Links in DSS Mail';
 
   @override
   String get settingsActionAccounts => 'Konten verwalten';
@@ -694,7 +694,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get folderNamesIntroduction => 'Welche Ordner-Namen möchtest du nutzen?';
 
   @override
-  String get folderNamesSettingLocalized => 'Von Maily vorgegebene Namen';
+  String get folderNamesSettingLocalized => 'Von DSS Mail vorgegebene Namen';
 
   @override
   String get folderNamesSettingServer => 'Vom Maildienst gegebene Namen';
@@ -812,28 +812,28 @@ class AppLocalizationsDe extends AppLocalizations {
   String get securitySettingsIntro => 'Passe die Sicherheitseinstellungen deinen persönlichen Ansprüchen an.';
 
   @override
-  String get securityUnlockWithFaceId => 'Entsicher Maily mit Face ID.';
+  String get securityUnlockWithFaceId => 'Entsicher DSS Mail mit Face ID.';
 
   @override
-  String get securityUnlockWithTouchId => 'Entsicher Maily mit Touch ID.';
+  String get securityUnlockWithTouchId => 'Entsicher DSS Mail mit Touch ID.';
 
   @override
-  String get securityUnlockReason => 'Entsicher Maily.';
+  String get securityUnlockReason => 'Entsicher DSS Mail.';
 
   @override
-  String get securityUnlockDisableReason => 'Entsicher Maily um die Sicherung zu deaktvieren.';
+  String get securityUnlockDisableReason => 'Entsicher DSS Mail um die Sicherung zu deaktvieren.';
 
   @override
   String get securityUnlockNotAvailable => 'Dein Gerät unterstützt keine Biometrie-Absicherung. Vielleicht musst du zuerst die Displaysperre in den Geräteeinstellungen aktivieren.';
 
   @override
-  String get securityUnlockLabel => 'Maily Absichern';
+  String get securityUnlockLabel => 'DSS Mail Absichern';
 
   @override
-  String get securityUnlockDescriptionTitle => 'Maily Absichern';
+  String get securityUnlockDescriptionTitle => 'DSS Mail Absichern';
 
   @override
-  String get securityUnlockDescriptionText => 'Du kannst Maily absichern, so dass anderen deine E-Mails auch dann nicht lesen können, wenn sie Zugang zu deinem Gerät haben.';
+  String get securityUnlockDescriptionText => 'Du kannst DSS Mail absichern, so dass anderen deine E-Mails auch dann nicht lesen können, wenn sie Zugang zu deinem Gerät haben.';
 
   @override
   String get securityLockImmediately => 'Sofort absichern';
@@ -845,10 +845,10 @@ class AppLocalizationsDe extends AppLocalizations {
   String get securityLockAfter30Minutes => 'Nach 30 Minuten absichern';
 
   @override
-  String get lockScreenTitle => 'Maily ist gesichert';
+  String get lockScreenTitle => 'DSS Mail ist gesichert';
 
   @override
-  String get lockScreenIntro => 'Maily ist gesichert, bitte authentifiziere dich um weiter zu machen.';
+  String get lockScreenIntro => 'DSS Mail ist gesichert, bitte authentifiziere dich um weiter zu machen.';
 
   @override
   String get lockScreenUnlockAction => 'Entsichern';
@@ -957,7 +957,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String editAccountFailureToConnectInfo(String name) {
-    return 'Maily konnte $name nicht erreichen.';
+    return 'DSS Mail konnte $name nicht erreichen.';
   }
 
   @override
@@ -1098,7 +1098,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String accountDetailsErrorHostProblem(String incomingHost, String outgoingHost) {
-    return 'Maily kann den angegeben Server nicht erreich. Bitte überprüfe die Einstellugen des Posteingang-Servers \"$incomingHost\" und des Postausgang-Servers \"$outgoingHost\".';
+    return 'DSS Mail kann den angegeben Server nicht erreich. Bitte überprüfe die Einstellugen des Posteingang-Servers \"$incomingHost\" und des Postausgang-Servers \"$outgoingHost\".';
   }
 
   @override
@@ -1293,22 +1293,22 @@ class AppLocalizationsDe extends AppLocalizations {
   String get languageSettingTitle => 'Sprache (Language)';
 
   @override
-  String get languageSettingLabel => 'Währe die Sprache für Maily:';
+  String get languageSettingLabel => 'Währe die Sprache für DSS Mail:';
 
   @override
   String get languageSettingSystemOption => 'Systemsprache';
 
   @override
-  String get languageSettingConfirmationTitle => 'Deutsch für Maily nutzen?';
+  String get languageSettingConfirmationTitle => 'Deutsch für DSS Mail nutzen?';
 
   @override
   String get languageSettingConfirmationQuery => 'Bitte bestätige, dass deutsch als Sprache verwendet werden soll.';
 
   @override
-  String get languageSetInfo => 'Maily ist nun auf deutsch. Bitte starte die App neu.';
+  String get languageSetInfo => 'DSS Mail ist nun auf deutsch. Bitte starte die App neu.';
 
   @override
-  String get languageSystemSetInfo => 'Maily wird nun die Systemsprache oder englisch nutzen, wenn die Systemprache nicht unterstützt wird. Bitte starte die App neu.';
+  String get languageSystemSetInfo => 'DSS Mail wird nun die Systemsprache oder englisch nutzen, wenn die Systemprache nicht unterstützt wird. Bitte starte die App neu.';
 
   @override
   String get swipeSettingTitle => 'Wischgesten';
@@ -1460,7 +1460,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String get extensionsTitle => 'Erweiterungen';
 
   @override
-  String get extensionsIntro => 'Mit Erweiterungen können E-Mail-Dienstleister, Firmen und Entwickler:innen Maily mit hilfreichen Funktionen ergänzen.';
+  String get extensionsIntro => 'Mit Erweiterungen können E-Mail-Dienstleister, Firmen und Entwickler:innen DSS Mail mit hilfreichen Funktionen ergänzen.';
 
   @override
   String get extensionsLearnMoreAction => 'Lerne mehr über Erweiterungen';
@@ -1669,7 +1669,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String composeAppointmentRecurrenceMonthlyOnDayOfMonth(int day) {
     final intl.NumberFormat dayNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String dayString = dayNumberFormat.format(day);
 
@@ -1698,7 +1698,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String durationYears(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1715,7 +1715,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String durationMonths(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1732,7 +1732,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String durationWeeks(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1749,7 +1749,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String durationDays(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1766,7 +1766,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String durationHours(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 
@@ -1783,7 +1783,7 @@ class AppLocalizationsDe extends AppLocalizations {
   String durationMinutes(int number) {
     final intl.NumberFormat numberNumberFormat = intl.NumberFormat.compactLong(
       locale: localeName,
-      
+
     );
     final String numberString = numberNumberFormat.format(number);
 

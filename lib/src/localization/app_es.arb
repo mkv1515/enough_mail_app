@@ -1,6 +1,6 @@
 {
   "@@locale": "es",
-  "signature": "Enviado con Maily",
+  "signature": "Enviado con DSS Mail",
   "@signature": {
     "description": "Default signature text"
   },
@@ -60,7 +60,7 @@
   "@splashLoading1": {
     "description": "Message shown on splash screen while loading"
   },
-  "splashLoading2": "Preparando tu Motor de Maily...",
+  "splashLoading2": "Preparando tu Motor de DSS Mail...",
   "@splashLoading2": {
     "description": "Message shown on splash screen while loading"
   },
@@ -68,11 +68,11 @@
   "@splashLoading3": {
     "description": "Message shown on splash screen while loading"
   },
-  "welcomePanel1Title": "Maily",
+  "welcomePanel1Title": "DSS Mail",
   "@welcomePanel1Title": {
     "description": "Welcome panel title"
   },
-  "welcomePanel1Text": "Bienvenido a Maily, tu ayudante de correo electrónico rápido y amistoso!",
+  "welcomePanel1Text": "Bienvenido a DSS Mail, tu ayudante de correo electrónico rápido y amistoso!",
   "@welcomePanel1Text": {
     "description": "Welcome message shown on first panel"
   },
@@ -335,7 +335,7 @@
       }
     }
   },
-  "drawerEntryAbout": "Sobre Maily",
+  "drawerEntryAbout": "Sobre DSS Mail",
   "@drawerEntryAbout": {
     "description": "Menu entry for about."
   },
@@ -743,7 +743,7 @@
       }
     }
   },
-  "legaleseUsage": "Al utilizar Maily aceptas nuestras [PP] y nuestras [TC].",
+  "legaleseUsage": "Al utilizar DSS Mail aceptas nuestras [PP] y nuestras [TC].",
   "@legaleseUsage": {
     "description": "Legal info shown on initial welcome screen and later in about. [PP] is replaced with the legalesePrivacyPolicy text and [TC] with legaleseTermsAndConditions."
   },
@@ -755,7 +755,7 @@
   "@legaleseTermsAndConditions": {
     "description": "Translation of Terms & Conditions "
   },
-  "aboutApplicationLegalese": "Maily es un software libre publicado bajo la Licencia Pública General GNU.",
+  "aboutApplicationLegalese": "DSS Mail es un software libre publicado bajo la Licencia Pública General GNU.",
   "@aboutApplicationLegalese": {
     "description": "Legal info shown in about dialog."
   },
@@ -767,7 +767,7 @@
   "@feedbackActionReportProblem": {
     "description": "Action to report a problem."
   },
-  "feedbackActionHelpDeveloping": "Ayuda al desarrollo de Maily",
+  "feedbackActionHelpDeveloping": "Ayuda al desarrollo de DSS Mail",
   "@feedbackActionHelpDeveloping": {
     "description": "Action to help developing."
   },
@@ -775,7 +775,7 @@
   "@feedbackTitle": {
     "description": "Title of feedback settings screen."
   },
-  "feedbackIntro": "¡Gracias por probar Maily!",
+  "feedbackIntro": "¡Gracias por probar DSS Mail!",
   "@feedbackIntro": {
     "description": "Intro for feedback settings screen."
   },
@@ -819,7 +819,7 @@
   "@settingsSecurityMessageRenderingPlainText": {
     "description": "Option for how to render messages."
   },
-  "settingsSecurityLaunchModeLabel": "¿Cómo debe abrir enlaces Maily?",
+  "settingsSecurityLaunchModeLabel": "¿Cómo debe abrir enlaces DSS Mail?",
   "@settingsSecurityLaunchModeLabel": {
     "description": "Option for how to launch URLs."
   },
@@ -827,7 +827,7 @@
   "@settingsSecurityLaunchModeExternal": {
     "description": "Option for how to launch URLs."
   },
-  "settingsSecurityLaunchModeInApp": "Abrir enlaces en Maily",
+  "settingsSecurityLaunchModeInApp": "Abrir enlaces en DSS Mail",
   "@settingsSecurityLaunchModeInApp": {
     "description": "Option for how to launch URLs."
   },
@@ -871,7 +871,7 @@
   "@folderNamesIntroduction": {
     "description": "Introduction for folder names setting."
   },
-  "folderNamesSettingLocalized": "Nombres dados por Maily",
+  "folderNamesSettingLocalized": "Nombres dados por DSS Mail",
   "@folderNamesSettingLocalized": {
     "description": "Folder name setting option."
   },
@@ -1045,19 +1045,19 @@
   "@securitySettingsIntro": {
     "description": "Introduction of security settings screen."
   },
-  "securityUnlockWithFaceId": "Desbloquea Maily con Face ID.",
+  "securityUnlockWithFaceId": "Desbloquea DSS Mail con Face ID.",
   "@securityUnlockWithFaceId": {
     "description": "iOS-specific unlock reason."
   },
-  "securityUnlockWithTouchId": "Desbloquea Maily con Touch ID.",
+  "securityUnlockWithTouchId": "Desbloquea DSS Mail con Touch ID.",
   "@securityUnlockWithTouchId": {
     "description": "iOS-specific unlock reason."
   },
-  "securityUnlockReason": "Desbloquea Maily.",
+  "securityUnlockReason": "Desbloquea DSS Mail.",
   "@securityUnlockReason": {
     "description": "Generic unlock reason."
   },
-  "securityUnlockDisableReason": "Desbloquear Maily para desactivar el bloqueo.",
+  "securityUnlockDisableReason": "Desbloquear DSS Mail para desactivar el bloqueo.",
   "@securityUnlockDisableReason": {
     "description": "Generic unlock disable reason."
   },
@@ -1065,15 +1065,15 @@
   "@securityUnlockNotAvailable": {
     "description": "Message when biometric authentication is not available."
   },
-  "securityUnlockLabel": "Bloquear Maily",
+  "securityUnlockLabel": "Bloquear DSS Mail",
   "@securityUnlockLabel": {
     "description": "Label of biometric authentication lock feature."
   },
-  "securityUnlockDescriptionTitle": "Bloquear Maily",
+  "securityUnlockDescriptionTitle": "Bloquear DSS Mail",
   "@securityUnlockDescriptionTitle": {
     "description": "Title to explain lock feature via biometric authentication."
   },
-  "securityUnlockDescriptionText": "Puedes elegir bloquear el acceso a Maily, para que otros no puedan leer tu correo electrónico incluso cuando tengan acceso a tu dispositivo.",
+  "securityUnlockDescriptionText": "Puedes elegir bloquear el acceso a DSS Mail, para que otros no puedan leer tu correo electrónico incluso cuando tengan acceso a tu dispositivo.",
   "@securityUnlockDescriptionText": {
     "description": "Text explaining lock feature via biometric authentication."
   },
@@ -1089,11 +1089,11 @@
   "@securityLockAfter30Minutes": {
     "description": "Lock timing option."
   },
-  "lockScreenTitle": "Maily está bloqueado",
+  "lockScreenTitle": "DSS Mail está bloqueado",
   "@lockScreenTitle": {
     "description": "Title of lock screen."
   },
-  "lockScreenIntro": "Maily está bloqueado, por favor autentifíquese para continuar.",
+  "lockScreenIntro": "DSS Mail está bloqueado, por favor autentifíquese para continuar.",
   "@lockScreenIntro": {
     "description": "Text on lock screen."
   },
@@ -1267,7 +1267,7 @@
       }
     }
   },
-  "editAccountFailureToConnectInfo": "Maily no pudo conectar {name}.",
+  "editAccountFailureToConnectInfo": "DSS Mail no pudo conectar {name}.",
   "@editAccountFailureToConnectInfo": {
     "description": "Info about not being able to connect to the named service. Most common causes are temporary network problems or a changed password.",
     "placeholders": {
@@ -1489,7 +1489,7 @@
   "@accountProviderCustom": {
     "description": "When no standard provider is chosen."
   },
-  "accountDetailsErrorHostProblem": "Maily no puede llegar al servidor de correo especificado. Por favor, compruebe la configuración del servidor de entrada \"{incomingHost}\" y la configuración del servidor de salida \"{outgoingHost}\".",
+  "accountDetailsErrorHostProblem": "DSS Mail no puede llegar al servidor de correo especificado. Por favor, compruebe la configuración del servidor de entrada \"{incomingHost}\" y la configuración del servidor de salida \"{outgoingHost}\".",
   "@accountDetailsErrorHostProblem": {
     "description": "Error details when no connection to server could be established at all",
     "placeholders": {
@@ -1775,7 +1775,7 @@
   "@languageSettingTitle": {
     "description": "Title of language setting screen"
   },
-  "languageSettingLabel": "Elige el idioma para Maily:",
+  "languageSettingLabel": "Elige el idioma para DSS Mail:",
   "@languageSettingLabel": {
     "description": "Label for language setting dropdown screen"
   },
@@ -1783,7 +1783,7 @@
   "@languageSettingSystemOption": {
     "description": "Option to use the system's settings"
   },
-  "languageSettingConfirmationTitle": "¿Usar Inglés para Maily?",
+  "languageSettingConfirmationTitle": "¿Usar Inglés para DSS Mail?",
   "@languageSettingConfirmationTitle": {
     "description": "Title of dialog to confirm when switching the language"
   },
@@ -1795,9 +1795,9 @@
   "@languageSetInfo": {
     "description": "Info text after having specified the language."
   },
-  "languageSystemSetInfo": "Maily ahora utilizará el idioma del sistema o Inglés si el idioma del sistema no es compatible.",
+  "languageSystemSetInfo": "DSS Mail ahora utilizará el idioma del sistema o Inglés si el idioma del sistema no es compatible.",
   "@languageSystemSetInfo": {
-    "description": "Info text after choosing the system's language for Maily."
+    "description": "Info text after choosing the system's language for DSS Mail."
   },
   "swipeSettingTitle": "Deslizar gestos",
   "@swipeSettingTitle": {

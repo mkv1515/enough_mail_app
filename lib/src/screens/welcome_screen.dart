@@ -53,7 +53,7 @@ class WelcomeScreen extends ConsumerWidget {
           body: localizations.welcomePanel1Text,
           image: Image.asset(
             'assets/images/maily.png',
-            height: 200,
+            height: 100,
             fit: BoxFit.cover,
             package: 'enough_mail_app',
           ),
@@ -89,7 +89,7 @@ class WelcomeScreen extends ConsumerWidget {
           body: localizations.welcomePanel4Text,
           image: Image.asset(
             'assets/images/drawing.jpg',
-            height: 200,
+            height: 100,
             fit: BoxFit.cover,
             package: 'enough_mail_app',
           ),

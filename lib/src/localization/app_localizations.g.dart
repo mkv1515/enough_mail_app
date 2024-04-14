@@ -98,7 +98,7 @@ abstract class AppLocalizations {
   /// Default signature text
   ///
   /// In en, this message translates to:
-  /// **'Sent with Maily'**
+  /// **'Sent with DSS Mail'**
   String get signature;
 
   /// Generic cancel action
@@ -182,31 +182,31 @@ abstract class AppLocalizations {
   /// Message shown on splash screen while loading
   ///
   /// In en, this message translates to:
-  /// **'Maily starting...'**
+  /// **'DSS Mail starting...'**
   String get splashLoading1;
 
   /// Message shown on splash screen while loading
   ///
   /// In en, this message translates to:
-  /// **'Getting your Maily engine ready...'**
+  /// **'Getting your DSS Mail engine ready...'**
   String get splashLoading2;
 
   /// Message shown on splash screen while loading
   ///
   /// In en, this message translates to:
-  /// **'Launching Maily in 10, 9, 8...'**
+  /// **'Launching DSS Mail in 10, 9, 8...'**
   String get splashLoading3;
 
   /// Welcome panel title
   ///
   /// In en, this message translates to:
-  /// **'Maily'**
+  /// **'DSS Mail'**
   String get welcomePanel1Title;
 
   /// Welcome message shown on first panel
   ///
   /// In en, this message translates to:
-  /// **'Welcome to Maily, your friendly and fast email helper!'**
+  /// **'Welcome to DSS Mail, your friendly and fast email helper!'**
   String get welcomePanel1Text;
 
   /// Welcome panel title
@@ -536,7 +536,7 @@ abstract class AppLocalizations {
   /// Menu entry for about.
   ///
   /// In en, this message translates to:
-  /// **'About Maily'**
+  /// **'About DSS Mail'**
   String get drawerEntryAbout;
 
   /// Menu entry for settings.
@@ -1028,7 +1028,7 @@ abstract class AppLocalizations {
   /// Legal info shown on initial welcome screen and later in about. [PP] is replaced with the legalesePrivacyPolicy text and [TC] with legaleseTermsAndConditions.
   ///
   /// In en, this message translates to:
-  /// **'By using Maily you agree to our [PP] and to our [TC].'**
+  /// **'By using DSS Mail you agree to our [PP] and to our [TC].'**
   String get legaleseUsage;
 
   /// Translation of privacy policy
@@ -1046,7 +1046,7 @@ abstract class AppLocalizations {
   /// Legal info shown in about dialog.
   ///
   /// In en, this message translates to:
-  /// **'Maily is free software published under the GNU General Public License.'**
+  /// **'DSS Mail is free software published under the GNU General Public License.'**
   String get aboutApplicationLegalese;
 
   /// Action to suggest a feature.
@@ -1064,7 +1064,7 @@ abstract class AppLocalizations {
   /// Action to help developing.
   ///
   /// In en, this message translates to:
-  /// **'Help developing Maily'**
+  /// **'Help developing DSS Mail'**
   String get feedbackActionHelpDeveloping;
 
   /// Title of feedback settings screen.
@@ -1076,7 +1076,7 @@ abstract class AppLocalizations {
   /// Intro for feedback settings screen.
   ///
   /// In en, this message translates to:
-  /// **'Thank you for testing Maily!'**
+  /// **'Thank you for testing DSS Mail!'**
   String get feedbackIntro;
 
   /// Request to provide device and app information when reporting a problem.
@@ -1142,7 +1142,7 @@ abstract class AppLocalizations {
   /// Option for how to launch URLs.
   ///
   /// In en, this message translates to:
-  /// **'How should Maily open links?'**
+  /// **'How should DSS Mail open links?'**
   String get settingsSecurityLaunchModeLabel;
 
   /// Option for how to launch URLs.
@@ -1154,7 +1154,7 @@ abstract class AppLocalizations {
   /// Option for how to launch URLs.
   ///
   /// In en, this message translates to:
-  /// **'Open links in Maily'**
+  /// **'Open links in DSS Mail'**
   String get settingsSecurityLaunchModeInApp;
 
   /// Settings action to manage accounts.
@@ -1220,7 +1220,7 @@ abstract class AppLocalizations {
   /// Folder name setting option.
   ///
   /// In en, this message translates to:
-  /// **'Names given by Maily'**
+  /// **'Names given by DSS Mail'**
   String get folderNamesSettingLocalized;
 
   /// Folder name setting option.
@@ -1436,25 +1436,25 @@ abstract class AppLocalizations {
   /// iOS-specific unlock reason.
   ///
   /// In en, this message translates to:
-  /// **'Unlock Maily with Face ID.'**
+  /// **'Unlock DSS Mail with Face ID.'**
   String get securityUnlockWithFaceId;
 
   /// iOS-specific unlock reason.
   ///
   /// In en, this message translates to:
-  /// **'Unlock Maily with Touch ID.'**
+  /// **'Unlock DSS Mail with Touch ID.'**
   String get securityUnlockWithTouchId;
 
   /// Generic unlock reason.
   ///
   /// In en, this message translates to:
-  /// **'Unlock Maily.'**
+  /// **'Unlock DSS Mail.'**
   String get securityUnlockReason;
 
   /// Generic unlock disable reason.
   ///
   /// In en, this message translates to:
-  /// **'Unlock Maily to turn off lock.'**
+  /// **'Unlock DSS Mail to turn off lock.'**
   String get securityUnlockDisableReason;
 
   /// Message when biometric authentication is not available.
@@ -1466,19 +1466,19 @@ abstract class AppLocalizations {
   /// Label of biometric authentication lock feature.
   ///
   /// In en, this message translates to:
-  /// **'Lock Maily'**
+  /// **'Lock DSS Mail'**
   String get securityUnlockLabel;
 
   /// Title to explain lock feature via biometric authentication.
   ///
   /// In en, this message translates to:
-  /// **'Lock Maily'**
+  /// **'Lock DSS Mail'**
   String get securityUnlockDescriptionTitle;
 
   /// Text explaining lock feature via biometric authentication.
   ///
   /// In en, this message translates to:
-  /// **'You can choose to lock access to Maily, so that others cannot read your email even when they have access to your device.'**
+  /// **'You can choose to lock access to DSS Mail, so that others cannot read your email even when they have access to your device.'**
   String get securityUnlockDescriptionText;
 
   /// Lock timing option.
@@ -1502,13 +1502,13 @@ abstract class AppLocalizations {
   /// Title of lock screen.
   ///
   /// In en, this message translates to:
-  /// **'Maily is locked'**
+  /// **'DSS Mail is locked'**
   String get lockScreenTitle;
 
   /// Text on lock screen.
   ///
   /// In en, this message translates to:
-  /// **'Maily is locked, please authenticate to proceed.'**
+  /// **'DSS Mail is locked, please authenticate to proceed.'**
   String get lockScreenIntro;
 
   /// Action to unlock on lock screen.
@@ -1688,7 +1688,7 @@ abstract class AppLocalizations {
   /// Info about not being able to connect to the named service. Most common causes are temporary network problems or a changed password.
   ///
   /// In en, this message translates to:
-  /// **'Maily could not connect {name}.'**
+  /// **'DSS Mail could not connect {name}.'**
   String editAccountFailureToConnectInfo(String name);
 
   /// Action to retry connecting to service again.
@@ -1934,7 +1934,7 @@ abstract class AppLocalizations {
   /// Error details when no connection to server could be established at all
   ///
   /// In en, this message translates to:
-  /// **'Maily cannot reach the specified mail server. Please check your incoming server setting \"{incomingHost}\" and your outgoing server setting \"{outgoingHost}\".'**
+  /// **'DSS Mail cannot reach the specified mail server. Please check your incoming server setting \"{incomingHost}\" and your outgoing server setting \"{outgoingHost}\".'**
   String accountDetailsErrorHostProblem(String incomingHost, String outgoingHost);
 
   /// Error details when login fails
@@ -2306,7 +2306,7 @@ abstract class AppLocalizations {
   /// Label for language setting dropdown screen
   ///
   /// In en, this message translates to:
-  /// **'Choose the language for Maily:'**
+  /// **'Choose the language for DSS Mail:'**
   String get languageSettingLabel;
 
   /// Option to use the system's settings
@@ -2318,7 +2318,7 @@ abstract class AppLocalizations {
   /// Title of dialog to confirm when switching the language
   ///
   /// In en, this message translates to:
-  /// **'Use English for Maily?'**
+  /// **'Use English for DSS Mail?'**
   String get languageSettingConfirmationTitle;
 
   /// Query to be confirmed by user when switching the language
@@ -2330,13 +2330,13 @@ abstract class AppLocalizations {
   /// Info text after having specified the language.
   ///
   /// In en, this message translates to:
-  /// **'Maily is now shown in English.'**
+  /// **'DSS Mail is now shown in English.'**
   String get languageSetInfo;
 
-  /// Info text after choosing the system's language for Maily.
+  /// Info text after choosing the system's language for DSS Mail.
   ///
   /// In en, this message translates to:
-  /// **'Maily will now use the system\'s language or English if the system\'s language is not supported.'**
+  /// **'DSS Mail will now use the system\'s language or English if the system\'s language is not supported.'**
   String get languageSystemSetInfo;
 
   /// Title of swipe setting screen
@@ -2624,7 +2624,7 @@ abstract class AppLocalizations {
   /// Explanation of extensions
   ///
   /// In en, this message translates to:
-  /// **'With extensions e-mail service providers, companies and developers can adapt Maily with useful functionalities.'**
+  /// **'With extensions e-mail service providers, companies and developers can adapt DSS Mail with useful functionalities.'**
   String get extensionsIntro;
 
   /// Label for launching a website with more information

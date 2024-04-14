@@ -1,9 +1,9 @@
 {
   "@@locale": "en",
-  "signature": "Sent with Maily",
+  "signature": "Sent with DSS Mail",
   "@signature": {
     "description": "Default signature text"
-  },  
+  },
   "actionCancel": "Cancel",
   "@actionCancel": {
     "description": "Generic cancel action"
@@ -56,23 +56,23 @@
   "@actionAddressSearch": {
     "description": "Search action for email addresses"
   },
-  "splashLoading1": "Maily starting...",
+  "splashLoading1": "DSS Mail starting...",
   "@splashLoading1": {
     "description": "Message shown on splash screen while loading"
   },
-  "splashLoading2": "Getting your Maily engine ready...",
+  "splashLoading2": "Getting your DSS Mail engine ready...",
   "@splashLoading2": {
     "description": "Message shown on splash screen while loading"
   },
-  "splashLoading3": "Launching Maily in 10, 9, 8...",
+  "splashLoading3": "Launching DSS Mail in 10, 9, 8...",
   "@splashLoading3": {
     "description": "Message shown on splash screen while loading"
   },
-  "welcomePanel1Title": "Maily",
+  "welcomePanel1Title": "DSS Mail",
   "@welcomePanel1Title": {
     "description": "Welcome panel title"
   },
-  "welcomePanel1Text": "Welcome to Maily, your friendly and fast email helper!",
+  "welcomePanel1Text": "Welcome to DSS Mail, your friendly and fast email client",
   "@welcomePanel1Text": {
     "description": "Welcome message shown on first panel"
   },
@@ -168,7 +168,7 @@
         "type": "String",
         "example": "Inbox"
       }
-    }  
+    }
   },
   "swipeActionToggleRead": "Mark as read/unread",
   "@swipeActionToggleRead": {
@@ -199,7 +199,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "multipleMovedToInbox": "{number,plural, =1{Moved one message to inbox} other{Moved {number} messages to inbox}}",
   "@multipleMovedToInbox": {
@@ -210,7 +210,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "multipleMovedToArchive": "{number,plural, =1{Archived one message} other{Archived {number} messages}}",
   "@multipleMovedToArchive": {
@@ -221,7 +221,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "multipleMovedToTrash": "{number,plural, =1{Deleted one message} other{Deleted {number} messages}}",
   "@multipleMovedToTrash": {
@@ -232,7 +232,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "multipleSelectionNeededInfo": "Please select messages first.",
   "@multipleSelectionNeededInfo": {
@@ -246,7 +246,7 @@
         "type": "String",
         "example": "Mailbox not found"
       }
-    }  
+    }
   },
   "multipleMoveTitle":  "{number,plural, =1{Move message} other{Move {number} messages}}",
   "@multipleMoveTitle": {
@@ -257,7 +257,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "messageActionMultipleMarkSeen": "Mark as read",
   "@messageActionMultipleMarkSeen": {
@@ -277,7 +277,7 @@
   "messageActionViewInSafeMode": "View without external content",
   "@messageActionMultipleViewInSafeMode": {
     "description": "Action for message."
-  },  
+  },
   "emailSenderUnknown": "<no sender>",
   "@emailSenderUnknown": {
     "description": "Shown as replacement when there is no known sender of a message."
@@ -344,7 +344,7 @@
       }
     }
   },
-  "drawerEntryAbout": "About Maily",
+  "drawerEntryAbout": "About DSS Mail",
   "@drawerEntryAbout": {
     "description": "Menu entry for about."
   },
@@ -361,7 +361,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "drawerEntryAddAccount": "Add account",
   "@drawerEntryAddAccount": {
@@ -632,7 +632,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "messagesActionForwardAttachments": "Forward attachments",
   "@messagesActionForwardAttachments": {
@@ -718,7 +718,7 @@
         "type": "String",
         "example": "Invalid recipient"
       }
-    }  
+    }
   },
   "redirectTitle": "Redirect",
   "@redirectTitle": {
@@ -740,7 +740,7 @@
         "type": "String",
         "example": "Inbox"
       }
-    }  
+    }
   },
   "searchQueryTitle": "Search \"{query}\"",
   "@searchQueryTitle": {
@@ -750,9 +750,9 @@
         "type": "String",
         "example": "a sender name"
       }
-    }  
+    }
   },
-  "legaleseUsage": "By using Maily you agree to our [PP] and to our [TC].",
+  "legaleseUsage": "By using DSS Mail you agree to our [PP] and to our [TC].",
   "@legaleseUsage": {
     "description": "Legal info shown on initial welcome screen and later in about. [PP] is replaced with the legalesePrivacyPolicy text and [TC] with legaleseTermsAndConditions."
   },
@@ -764,7 +764,7 @@
   "@legaleseTermsAndConditions": {
     "description": "Translation of Terms & Conditions "
   },
-  "aboutApplicationLegalese": "Maily is free software published under the GNU General Public License.",
+  "aboutApplicationLegalese": "DSS Mail is free software published under the GNU General Public License.",
   "@aboutApplicationLegalese": {
     "description": "Legal info shown in about dialog."
   },
@@ -776,7 +776,7 @@
   "@feedbackActionReportProblem": {
     "description": "Action to report a problem."
   },
-  "feedbackActionHelpDeveloping": "Help developing Maily",
+  "feedbackActionHelpDeveloping": "Help developing DSS Mail",
   "@feedbackActionHelpDeveloping": {
     "description": "Action to help developing."
   },
@@ -784,7 +784,7 @@
   "@feedbackTitle": {
     "description": "Title of feedback settings screen."
   },
-  "feedbackIntro": "Thank you for testing Maily!",
+  "feedbackIntro": "Thank you for testing DSS Mail!",
   "@feedbackIntro": {
     "description": "Intro for feedback settings screen."
   },
@@ -828,7 +828,7 @@
   "@settingsSecurityMessageRenderingPlainText": {
     "description": "Option for how to render messages."
   },
-  "settingsSecurityLaunchModeLabel": "How should Maily open links?",
+  "settingsSecurityLaunchModeLabel": "How should DSS Mail open links?",
   "@settingsSecurityLaunchModeLabel": {
     "description": "Option for how to launch URLs."
   },
@@ -836,7 +836,7 @@
   "@settingsSecurityLaunchModeExternal": {
     "description": "Option for how to launch URLs."
   },
-  "settingsSecurityLaunchModeInApp": "Open links in Maily",
+  "settingsSecurityLaunchModeInApp": "Open links in DSS Mail",
   "@settingsSecurityLaunchModeInApp": {
     "description": "Option for how to launch URLs."
   },
@@ -880,7 +880,7 @@
   "@folderNamesIntroduction": {
     "description": "Introduction for folder names setting."
   },
-  "folderNamesSettingLocalized": "Names given by Maily",
+  "folderNamesSettingLocalized": "Names given by DSS Mail",
   "@folderNamesSettingLocalized": {
     "description": "Folder name setting option."
   },
@@ -936,7 +936,7 @@
         "type": "String",
         "example": "Invalid name"
       }
-    }  
+    }
   },
   "folderDeleteAction": "Delete",
   "@folderDeleteAction": {
@@ -954,7 +954,7 @@
         "type": "String",
         "example": "My Custom Folder"
       }
-    }  
+    }
   },
   "folderDeleteResultSuccess": "Folder deleted.",
   "@folderDeleteResultSuccess": {
@@ -968,7 +968,7 @@
         "type": "String",
         "example": "Invalid name"
       }
-    }  
+    }
   },
   "settingsDevelopment": "Development settings",
   "@settingsDevelopment": {
@@ -1030,7 +1030,7 @@
         "type": "String",
         "example": "10 PM"
       }
-    }  
+    }
   },
   "designThemeCustomEnd": "until {time}",
   "@designThemeCustomEnd": {
@@ -1040,7 +1040,7 @@
         "type": "String",
         "example": "7 AM"
       }
-    }  
+    }
   },
   "designSectionColorTitle": "Color Scheme",
   "@designSectionColorTitle": {
@@ -1054,19 +1054,19 @@
   "@securitySettingsIntro": {
     "description": "Introduction of security settings screen."
   },
-  "securityUnlockWithFaceId": "Unlock Maily with Face ID.",
+  "securityUnlockWithFaceId": "Unlock DSS Mail with Face ID.",
   "@securityUnlockWithFaceId": {
     "description": "iOS-specific unlock reason."
   },
-  "securityUnlockWithTouchId": "Unlock Maily with Touch ID.",
+  "securityUnlockWithTouchId": "Unlock DSS Mail with Touch ID.",
   "@securityUnlockWithTouchId": {
     "description": "iOS-specific unlock reason."
   },
-  "securityUnlockReason": "Unlock Maily.",
+  "securityUnlockReason": "Unlock DSS Mail.",
   "@securityUnlockReason": {
     "description": "Generic unlock reason."
   },
-  "securityUnlockDisableReason": "Unlock Maily to turn off lock.",
+  "securityUnlockDisableReason": "Unlock DSS Mail to turn off lock.",
   "@securityUnlockDisableReason": {
     "description": "Generic unlock disable reason."
   },
@@ -1074,15 +1074,15 @@
   "@securityUnlockNotAvailable": {
     "description": "Message when biometric authentication is not available."
   },
-  "securityUnlockLabel": "Lock Maily",
+  "securityUnlockLabel": "Lock DSS Mail",
   "@securityUnlockLabel": {
     "description": "Label of biometric authentication lock feature."
   },
-  "securityUnlockDescriptionTitle": "Lock Maily",
+  "securityUnlockDescriptionTitle": "Lock DSS Mail",
   "@securityUnlockDescriptionTitle": {
     "description": "Title to explain lock feature via biometric authentication."
   },
-  "securityUnlockDescriptionText": "You can choose to lock access to Maily, so that others cannot read your email even when they have access to your device.",
+  "securityUnlockDescriptionText": "You can choose to lock access to DSS Mail, so that others cannot read your email even when they have access to your device.",
   "@securityUnlockDescriptionText": {
     "description": "Text explaining lock feature via biometric authentication."
   },
@@ -1098,11 +1098,11 @@
   "@securityLockAfter30Minutes": {
     "description": "Lock timing option."
   },
-  "lockScreenTitle": "Maily is locked",
+  "lockScreenTitle": "DSS Mail is locked",
   "@lockScreenTitle": {
     "description": "Title of lock screen."
   },
-  "lockScreenIntro": "Maily is locked, please authenticate to proceed.",
+  "lockScreenIntro": "DSS Mail is locked, please authenticate to proceed.",
   "@lockScreenIntro": {
     "description": "Text on lock screen."
   },
@@ -1130,7 +1130,7 @@
         "type": "String",
         "example": "someone@domain.com"
       }
-    }  
+    }
   },
   "addAccountResolvedSettingsWrongAction": "Not on {provider}?",
   "@addAccountResolvedSettingsWrongAction": {
@@ -1140,7 +1140,7 @@
         "type": "String",
         "example": "gmail"
       }
-    }  
+    }
   },
   "addAccountResolvingSettingsFailedInfo": "Unable to resolve {email}. Please go back to change it or set up the account manually.",
   "@addAccountResolvingSettingsFailedInfo": {
@@ -1150,7 +1150,7 @@
         "type": "String",
         "example": "someone@domain.com"
       }
-    }  
+    }
   },
   "addAccountEditManuallyAction": "Edit manually",
   "@addAccountEditManuallyAction": {
@@ -1193,7 +1193,7 @@
         "type": "String",
         "example": "someone@domain.com"
       }
-    }  
+    }
   },
   "addAccountVerifyingSuccessInfo": "Successfully signed into {email}.",
   "@addAccountVerifyingSuccessInfo": {
@@ -1203,7 +1203,7 @@
         "type": "String",
         "example": "someone@domain.com"
       }
-    }  
+    }
   },
   "addAccountVerifyingFailedInfo": "Sorry, but there was a problem. Please check your email {email} and password.",
   "@addAccountVerifyingFailedInfo": {
@@ -1213,7 +1213,7 @@
         "type": "String",
         "example": "someone@domain.com"
       }
-    }  
+    }
   },
   "addAccountOauthOptionsText": "Sign in with {provider} or create an app-specific password.",
   "@addAccountOauthOptionsText": {
@@ -1275,9 +1275,9 @@
         "type": "String",
         "example": "domain.com"
       }
-    }  
+    }
   },
-  "editAccountFailureToConnectInfo": "Maily could not connect {name}.",
+  "editAccountFailureToConnectInfo": "DSS Mail could not connect {name}.",
   "@editAccountFailureToConnectInfo": {
     "description": "Info about not being able to connect to the named service. Most common causes are temporary network problems or a changed password.",
     "placeholders": {
@@ -1285,7 +1285,7 @@
         "type": "String",
         "example": "domain.com"
       }
-    }  
+    }
   },
   "editAccountFailureToConnectRetryAction": "Retry",
   "@editAccountFailureToConnectRetryAction": {
@@ -1315,7 +1315,7 @@
         "type": "String",
         "example": "someone@domain.com"
       }
-    }  
+    }
   },
   "editAccountNoAliasesInfo": "You have no known aliases for this account yet.",
   "@editAccountNoAliasesInfo": {
@@ -1329,7 +1329,7 @@
         "type": "String",
         "example": "someone@domain.com"
       }
-    }  
+    }
   },
   "editAccountAddAliasAction": "Add alias",
   "@editAccountAddAliasAction": {
@@ -1375,7 +1375,7 @@
         "type": "String",
         "example": "domain.com"
       }
-    }  
+    }
   },
   "editAccountTestPlusAliasTitle": "+ Aliases for {name}",
   "@editAccountTestPlusAliasTitle": {
@@ -1385,7 +1385,7 @@
         "type": "String",
         "example": "domain.com"
       }
-    }  
+    }
   },
   "editAccountTestPlusAliasStepIntroductionTitle": "Introduction",
   "@editAccountTestPlusAliasStepIntroductionTitle": {
@@ -1403,7 +1403,7 @@
         "type": "String",
         "example": "someone+example@domain.com"
       }
-    }  
+    }
   },
   "editAccountTestPlusAliasStepTestingTitle": "Testing",
   "@editAccountTestPlusAliasStepTestingTitle": {
@@ -1421,7 +1421,7 @@
         "type": "String",
         "example": "domain.com"
       }
-    }  
+    }
   },
   "editAccountTestPlusAliasStepResultNoSuccess": "Your account {name} does not support + aliases.",
   "@editAccountTestPlusAliasStepResultNoSuccess": {
@@ -1431,7 +1431,7 @@
         "type": "String",
         "example": "domain.com"
       }
-    }  
+    }
   },
   "editAccountAddAliasTitle": "Add alias",
   "@editAccountAddAliasTitle": {
@@ -1469,7 +1469,7 @@
         "type": "String",
         "example": "you@domain.com"
       }
-    }  
+    }
   },
   "editAccountEnableLogging": "Enable logging",
   "@editAccountEnableLogging": {
@@ -1499,7 +1499,7 @@
   "@accountProviderCustom": {
     "description": "When no standard provider is chosen."
   },
-  "accountDetailsErrorHostProblem": "Maily cannot reach the specified mail server. Please check your incoming server setting \"{incomingHost}\" and your outgoing server setting \"{outgoingHost}\".",
+  "accountDetailsErrorHostProblem": "DSS Mail cannot reach the specified mail server. Please check your incoming server setting \"{incomingHost}\" and your outgoing server setting \"{outgoingHost}\".",
   "@accountDetailsErrorHostProblem": {
     "description": "Error details when no connection to server could be established at all",
     "placeholders": {
@@ -1511,7 +1511,7 @@
         "type": "String",
         "example": "smtp@domain.com"
       }
-    }  
+    }
   },
   "accountDetailsErrorLoginProblem": "Unable to log your in. Please check your user name \"{userName}\" and your password \"{password}\".",
   "@accountDetailsErrorLoginProblem": {
@@ -1525,7 +1525,7 @@
         "type": "String",
         "example": "secret"
       }
-    }  
+    }
   },
   "accountDetailsUserNameLabel": "Login name",
   "@accountDetailsUserNameLabel": {
@@ -1667,7 +1667,7 @@
         "type": "String",
         "example": "554-Reject due to policy restrictions."
       }
-    }  
+    }
   },
   "composeRequestReadReceiptAction": "Request read receipt",
   "@composeRequestReadReceiptAction": {
@@ -1689,7 +1689,7 @@
         "type": "String",
         "example": "Invalid header: XX"
       }
-    }  
+    }
   },
   "composeConvertToPlainTextEditorAction": "Convert to plain text",
   "@composeConvertToPlainTextEditorAction": {
@@ -1735,7 +1735,7 @@
         "type": "String",
         "example": "funny.png"
       }
-    }  
+    }
   },
   "composeLeftByMistake": "Left by mistake?",
   "@composeLeftByMistake": {
@@ -1785,7 +1785,7 @@
   "@languageSettingTitle": {
     "description": "Title of language setting screen"
   },
-  "languageSettingLabel": "Choose the language for Maily:",
+  "languageSettingLabel": "Choose the language for DSS Mail:",
   "@languageSettingLabel": {
     "description": "Label for language setting dropdown screen"
   },
@@ -1793,7 +1793,7 @@
   "@languageSettingSystemOption": {
     "description": "Option to use the system's settings"
   },
-  "languageSettingConfirmationTitle": "Use English for Maily?",
+  "languageSettingConfirmationTitle": "Use English for DSS Mail?",
   "@languageSettingConfirmationTitle": {
     "description": "Title of dialog to confirm when switching the language"
   },
@@ -1801,13 +1801,13 @@
   "@languageSettingConfirmationQuery": {
     "description": "Query to be confirmed by user when switching the language"
   },
-  "languageSetInfo": "Maily is now shown in English.",
+  "languageSetInfo": "DSS Mail is now shown in English.",
   "@languageSetInfo": {
     "description": "Info text after having specified the language."
   },
-  "languageSystemSetInfo": "Maily will now use the system's language or English if the system's language is not supported.",
+  "languageSystemSetInfo": "DSS Mail will now use the system's language or English if the system's language is not supported.",
   "@languageSystemSetInfo": {
-    "description": "Info text after choosing the system's language for Maily."
+    "description": "Info text after choosing the system's language for DSS Mail."
   },
   "swipeSettingTitle": "Swipe gestures",
   "@swipeSettingTitle": {
@@ -1845,7 +1845,7 @@
         "type": "String",
         "example": "domain.com"
       }
-    }  
+    }
   },
   "defaultSenderSettingsTitle": "Default sender",
   "@defaultSenderSettingsTitle": {
@@ -1863,7 +1863,7 @@
         "type": "String",
         "example": "email@domain.com"
       }
-    }  
+    }
   },
   "defaultSenderSettingsAliasInfo": "You can set up email alias addresses in the [AS].",
   "@defaultSenderSettingsAliasInfo": {
@@ -1905,7 +1905,7 @@
         "type": "String",
         "example": "Inbox"
       }
-    }  
+    }
   },
   "editorArtInputLabel": "Your input",
   "@editorArtInputLabel": {
@@ -2011,7 +2011,7 @@
         "type": "String",
         "example": "domain.com"
       }
-    }  
+    }
   },
   "accountLoadErrorEditAction": "Edit account",
   "@accountLoadErrorEditAction": {
@@ -2021,7 +2021,7 @@
   "@extensionsTitle": {
     "description": "Title of extension section within the development settings"
   },
-  "extensionsIntro": "With extensions e-mail service providers, companies and developers can adapt Maily with useful functionalities.",
+  "extensionsIntro": "With extensions e-mail service providers, companies and developers can adapt DSS Mail with useful functionalities.",
   "@extensionsIntro": {
     "description": "Explanation of extensions"
   },
@@ -2029,7 +2029,7 @@
   "@extensionsLearnMoreAction": {
     "description": "Label for launching a website with more information"
   },
-  
+
   "extensionsReloadAction": "Reload extensions",
   "@extensionsReloadAction": {
     "description": "Action to refresh extensions"
@@ -2054,7 +2054,7 @@
         "type": "String",
         "example": "https://domain.com/.maily.json"
       }
-    }  
+    }
   },
   "icalendarAcceptTentatively": "Tentatively",
   "@icalendarAcceptTentatively": {
@@ -2384,7 +2384,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "durationMonths": "{number,plural, =1{1 month} other{{number} months}}",
   "@durationMonths": {
@@ -2395,7 +2395,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "durationWeeks": "{number,plural, =1{1 week} other{{number} weeks}}",
   "@durationWeeks": {
@@ -2406,7 +2406,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "durationDays": "{number,plural, =1{1 day} other{{number} days}}",
   "@durationDays": {
@@ -2417,7 +2417,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "durationHours": "{number,plural, =1{1 hour} other{{number} hours}}",
   "@durationHours": {
@@ -2428,7 +2428,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "durationMinutes": "{number,plural, =1{1 minute} other{{number} minutes}}",
   "@durationMinutes": {
@@ -2439,7 +2439,7 @@
         "example": "2",
         "format": "compactLong"
       }
-    }  
+    }
   },
   "durationEmpty": "No duration",
   "@durationEmpty": {
