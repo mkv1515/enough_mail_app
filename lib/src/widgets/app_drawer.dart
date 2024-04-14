@@ -66,30 +66,30 @@ class AppDrawer extends ConsumerWidget {
                           currentAccount,
                         ),
                       const Divider(),
-                      PlatformListTile(
-                        leading: Icon(iconService.about),
-                        title: Text(localizations.drawerEntryAbout),
-                        onTap: () {
-                          LocalizedDialogHelper.showAbout(
-                            ref,
-                          );
-                        },
-                      ),
+                      // PlatformListTile(
+                      //   leading: Icon(iconService.about),
+                      //   title: Text(localizations.drawerEntryAbout),
+                      //   onTap: () {
+                      //     LocalizedDialogHelper.showAbout(
+                      //       ref,
+                      //     );
+                      //   },
+                      // ),
                     ],
                   ),
                 ),
               ),
             ),
-            Material(
-              elevation: 18,
-              child: PlatformListTile(
-                leading: Icon(iconService.settings),
-                title: Text(localizations.drawerEntrySettings),
-                onTap: () {
-                  context.pushNamed(Routes.settings);
-                },
-              ),
-            ),
+            // Material(
+            //   elevation: 18,
+            //   child: PlatformListTile(
+            //     leading: Icon(iconService.settings),
+            //     title: Text(localizations.drawerEntrySettings),
+            //     onTap: () {
+            //       context.pushNamed(Routes.settings);
+            //     },
+            //   ),
+            // ),
           ],
         ),
       ),

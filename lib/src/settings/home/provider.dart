@@ -80,11 +80,11 @@ class SettingsUiElements extends _$SettingsUiElements {
         title: text.settingsActionFeedback,
         onTap: () => context.pushNamed(Routes.settingsFeedback),
       ),
-      UiSettingsElement(
-        type: UiSettingsType.about,
-        title: text.drawerEntryAbout,
-        onTap: () => LocalizedDialogHelper.showAbout(ref),
-      ),
+      // UiSettingsElement(
+      //   type: UiSettingsType.about,
+      //   title: text.drawerEntryAbout,
+      //   onTap: () => LocalizedDialogHelper.showAbout(ref),
+      // ),
       UiSettingsElement(
         type: UiSettingsType.welcome,
         title: text.settingsActionWelcome,

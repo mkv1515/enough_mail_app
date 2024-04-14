@@ -119,7 +119,8 @@ class _InitializationScreenState extends ConsumerState<InitializationScreen> {
     logger.d('App initialized');
     if (context.mounted) {
       if (ref.read(allAccountsProvider).isEmpty) {
-        context.goNamed(Routes.welcome);
+        //context.goNamed(Routes.welcome);
+        context.goNamed(Routes.accountAdd);
       } else {
         context.goNamed(Routes.mail);
       }
