@@ -234,7 +234,8 @@ class _ComposeScreenState extends ConsumerState<ComposeScreen> {
     if (mb.originalMessage == null) {
       if (_composeMode == ComposeMode.html) {
         // cSpell:ignore nbsp
-        final html = '<p>${mb.text ?? '&nbsp;'}</p>$signature';
+        final html =
+            '<p style="color: grey;">${mb.text ?? '&nbsp;'}</p>$signature';
 
         return html;
       } else {
@@ -331,6 +332,7 @@ class _ComposeScreenState extends ConsumerState<ComposeScreen> {
     final text = _composeMode == ComposeMode.html
         ? await _htmlEditorApi?.getText() ?? ''
         : _plainTextController.text;
+
     _resumeComposeData = widget.data.resume(text, composeMode: _composeMode);
     if (storeComposeDataForResume) {
       return;

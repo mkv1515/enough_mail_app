@@ -211,15 +211,18 @@ class AppDrawer extends ConsumerWidget {
     BuildContext context,
     AppLocalizations localizations,
   ) =>
-      PlatformListTile(
-        leading: const Icon(Icons.add),
-        title: Text(localizations.drawerEntryAddAccount),
-        onTap: () {
-          if (!useAppDrawerAsRoot) {
-            context.pop();
-          }
-          context.pushNamed(Routes.accountAdd);
-        },
+      Visibility(
+        visible: false,
+        child: PlatformListTile(
+          leading: const Icon(Icons.add),
+          title: Text(localizations.drawerEntryAddAccount),
+          onTap: () {
+            if (!useAppDrawerAsRoot) {
+              context.pop();
+            }
+            context.pushNamed(Routes.accountAdd);
+          },
+        ),
       );
 
   Widget _buildFolderTree(

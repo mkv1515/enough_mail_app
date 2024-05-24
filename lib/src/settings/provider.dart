@@ -61,8 +61,8 @@ class SettingsNotifier extends Notifier<Settings> {
   }
 
   /// Retrieves the global signature
-  String getSignatureHtmlGlobal() =>
-      state.signatureHtml ?? '<p>---<br/>${ref.text.signature}</p>';
+  String getSignatureHtmlGlobal() => "";
+  //state.signatureHtml ?? '<p>---<br/>${ref.text.signature}</p>';
 
   /// Retrieves the plain text signature for the specified account
   String getSignaturePlain(
@@ -77,6 +77,6 @@ class SettingsNotifier extends Notifier<Settings> {
   }
 
   /// Retrieves the global plain text signature
-  String getSignaturePlainGlobal() =>
-      state.signaturePlain ?? '\n---\n${ref.text.signature}';
+  String getSignaturePlainGlobal() => "";
+  //state.signaturePlain ?? '\n---\n${ref.text.signature}';
 }

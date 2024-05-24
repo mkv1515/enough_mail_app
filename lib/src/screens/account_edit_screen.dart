@@ -153,14 +153,14 @@ class AccountEditScreen extends HookConsumerWidget {
                         ),
                       ),
                     const Divider(),
-                    Text(
-                      localizations.signatureSettingsTitle,
-                      style: theme.textTheme.titleMedium,
-                    ),
-                    SignatureWidget(
-                      account: account,
-                    ),
-                    const Divider(),
+                    // Text(
+                    //   localizations.signatureSettingsTitle,
+                    //   style: theme.textTheme.titleMedium,
+                    // ),
+                    // SignatureWidget(
+                    //   account: account,
+                    // ),
+                    // const Divider(),
                     Padding(
                       padding: const EdgeInsets.fromLTRB(8, 16, 8, 8),
                       child: Text(
@@ -207,74 +207,75 @@ class AccountEditScreen extends HookConsumerWidget {
                           },
                         ),
                       ),
-                    PlatformTextButtonIcon(
-                      icon: Icon(iconService.add),
-                      label: Text(localizations.editAccountAddAliasAction),
-                      onPressed: () {
-                        var email = account.email;
-                        email = email.substring(email.lastIndexOf('@'));
-                        final alias = MailAddress(account.userName, email);
-                        showDialog(
-                          context: context,
-                          builder: (context) => _AliasEditDialog(
-                            isNewAlias: true,
-                            alias: alias,
-                            account: account,
-                          ),
-                        );
-                      },
-                    ),
-                    // section to test plus alias support
-                    PlatformCheckboxListTile(
-                      value: account.supportsPlusAliases,
-                      onChanged: null,
-                      title:
-                          Text(localizations.editAccountPlusAliasesSupported),
-                    ),
-                    PlatformTextButton(
-                      child:
-                          Text(localizations.editAccountCheckPlusAliasAction),
-                      onPressed: () async {
-                        final result = await showPlatformDialog<bool>(
-                          context: context,
-                          builder: (context) =>
-                              _PlusAliasTestingDialog(account: account),
-                        );
-                        if (result != null) {
-                          account
-                            ..supportsPlusAliases = result
-                            ..setAttribute(
-                              RealAccount.attributePlusAliasTested,
-                              true,
-                            );
-                          await saveAccounts();
-                        }
-                      },
-                    ),
+                    // PlatformTextButtonIcon(
+                    //   icon: Icon(iconService.add),
+                    //   label: Text(localizations.editAccountAddAliasAction),
+                    //   onPressed: () {
+                    //     var email = account.email;
+                    //     email = email.substring(email.lastIndexOf('@'));
+                    //     final alias = MailAddress(account.userName, email);
+                    //     showDialog(
+                    //       context: context,
+                    //       builder: (context) => _AliasEditDialog(
+                    //         isNewAlias: true,
+                    //         alias: alias,
+                    //         account: account,
+                    //       ),
+                    //     );
+                    //   },
+                    // ),
 
-                    Row(
-                      children: [
-                        Expanded(
-                          child: PlatformCheckboxListTile(
-                            value: account.bccMyself,
-                            onChanged: (value) async {
-                              final bccMyself = value ?? false;
-                              account.bccMyself = bccMyself;
-                              await saveAccounts();
-                            },
-                            title: Text(localizations.editAccountBccMyself),
-                          ),
-                        ),
-                        PlatformIconButton(
-                          icon: Icon(CommonPlatformIcons.info),
-                          onPressed: () => LocalizedDialogHelper.showTextDialog(
-                            ref,
-                            localizations.editAccountBccMyselfDescriptionTitle,
-                            localizations.editAccountBccMyselfDescriptionText,
-                          ),
-                        ),
-                      ],
-                    ),
+                    // section to test plus alias support
+                    // PlatformCheckboxListTile(
+                    //   value: account.supportsPlusAliases,
+                    //   onChanged: null,
+                    //   title:
+                    //       Text(localizations.editAccountPlusAliasesSupported),
+                    // ),
+                    // PlatformTextButton(
+                    //   child:
+                    //       Text(localizations.editAccountCheckPlusAliasAction),
+                    //   onPressed: () async {
+                    //     final result = await showPlatformDialog<bool>(
+                    //       context: context,
+                    //       builder: (context) =>
+                    //           _PlusAliasTestingDialog(account: account),
+                    //     );
+                    //     if (result != null) {
+                    //       account
+                    //         ..supportsPlusAliases = result
+                    //         ..setAttribute(
+                    //           RealAccount.attributePlusAliasTested,
+                    //           true,
+                    //         );
+                    //       await saveAccounts();
+                    //     }
+                    //   },
+                    // ),
+
+                    // Row(
+                    //   children: [
+                    //     Expanded(
+                    //       child: PlatformCheckboxListTile(
+                    //         value: account.bccMyself,
+                    //         onChanged: (value) async {
+                    //           final bccMyself = value ?? false;
+                    //           account.bccMyself = bccMyself;
+                    //           await saveAccounts();
+                    //         },
+                    //         title: Text(localizations.editAccountBccMyself),
+                    //       ),
+                    //     ),
+                    //     PlatformIconButton(
+                    //       icon: Icon(CommonPlatformIcons.info),
+                    //       onPressed: () => LocalizedDialogHelper.showTextDialog(
+                    //         ref,
+                    //         localizations.editAccountBccMyselfDescriptionTitle,
+                    //         localizations.editAccountBccMyselfDescriptionText,
+                    //       ),
+                    //     ),
+                    //   ],
+                    // ),
 
                     const Divider(),
                     PlatformTextButtonIcon(

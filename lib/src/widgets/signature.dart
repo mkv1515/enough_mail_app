@@ -28,6 +28,7 @@ class SignatureWidget extends HookConsumerWidget {
           ref.read(settingsProvider.notifier).getSignatureHtmlGlobal(),
     );
     final signature = signatureState.value;
+    //final signature = signatureState.value = null;
 
     Future<void> showEditor() async {
       final localizations = ref.text;
